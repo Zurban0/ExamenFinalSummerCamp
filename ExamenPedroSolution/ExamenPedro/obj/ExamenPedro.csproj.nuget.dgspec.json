@@ -4,14 +4,14 @@
     "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj": {}
   },
   "projects": {
-    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj": {
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj",
-        "projectName": "ExamenPedro",
-        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj",
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\obj\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,199 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj",
+        "projectName": "ExamenPedro",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\ExamenPedro.csproj",
+        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\ExamenPedro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Profiles\\Profiles.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Profiles\\Profiles.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Repositorios\\Repositorios.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Repositorios\\Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -60,6 +253,349 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj",
+        "projectName": "Helpers",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Modelos\\Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Modelos\\Modelos.csproj",
+        "projectName": "Modelos",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Modelos\\Modelos.csproj",
+        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Profiles\\Profiles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Profiles\\Profiles.csproj",
+        "projectName": "Profiles",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Profiles\\Profiles.csproj",
+        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Profiles\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Repositorios\\Repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Repositorios\\Repositorios.csproj",
+        "projectName": "Repositorios",
+        "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Repositorios\\Repositorios.csproj",
+        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+        "outputPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Repositorios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\A\\DTOs.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Entidades\\Entidades.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Helpers\\Helpers.csproj"
+              },
+              "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\w\\ExamenSummerCamp\\ExamenPedroSolution\\Modelos\\Modelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

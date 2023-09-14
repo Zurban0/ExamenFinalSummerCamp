@@ -1,0 +1,17 @@
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\bin\Debug\net6.0\Modelos.deps.json
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\bin\Debug\net6.0\Modelos.runtimeconfig.json
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\bin\Debug\net6.0\Modelos.dll
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\bin\Debug\net6.0\Modelos.pdb
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\bin\Debug\net6.0\Entidades.dll
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\bin\Debug\net6.0\Entidades.pdb
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.csproj.AssemblyReference.cache
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.AssemblyInfoInputs.cache
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.AssemblyInfo.cs
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.csproj.CoreCompileInputs.cache
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.csproj.CopyComplete
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.dll
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\refint\Modelos.dll
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.pdb
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\Modelos.genruntimeconfig.cache
+C:\w\ExamenSummerCamp\ExamenPedroSolution\Modelos\obj\Debug\net6.0\ref\Modelos.dll
