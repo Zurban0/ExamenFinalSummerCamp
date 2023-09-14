@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenPedro", "ExamenPedro\ExamenPedro.csproj", "{0C0D6F2D-7C43-4051-BCE4-0E35142DF18B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{9E9CA0C2-FA4B-4100-B7CE-547A3417868C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Personas", "Personas", "{759D2EEF-6A94-4697-B897-3699CE9BF2AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0D6F2D-7C43-4051-BCE4-0E35142DF18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0D6F2D-7C43-4051-BCE4-0E35142DF18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0D6F2D-7C43-4051-BCE4-0E35142DF18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0D6F2D-7C43-4051-BCE4-0E35142DF18B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C0D6F2D-7C43-4051-BCE4-0E35142DF18B} = {9E9CA0C2-FA4B-4100-B7CE-547A3417868C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35447C63-EAF2-4B12-8076-7A1FC6BC04BF}
+	EndGlobalSection
+EndGlobal
