@@ -1,7 +1,7 @@
-export interface IPersona {
+export interface IPersonaForm {
   username : string,
   password : string,
   nombre : string,
-  edad : number,
+  fechaNacimiento : Date,
   telefono : string
 }

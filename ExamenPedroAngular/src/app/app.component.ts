@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, SimpleChanges, OnChanges } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { IPersona } from './persona';
+import { IPersonaForm } from './persona-form';
 import { AppService } from './app.service';
 
 @Component({
@@ -23,8 +24,8 @@ export class AppComponent {
 
   constructor(private appService: AppService) {}
 
-  registraPersona(): void {
-    let persona = <IPersona>{
+  registrarPersona(): void {
+    let personaForm = <IPersonaForm>{
       nombre: this.nombre,
       fechaNacimiento: this.fechaNacimiento,
       telefono: this.telefono,
@@ -32,7 +33,28 @@ export class AppComponent {
       password: this.password
     };
 
-    
+    this.subPost = this.appService.postPersona(personaForm).subscribe({
+      next: () => {},
+      error: err => this.errorMessage = err,
+    });
+  }
+
+  set setPersonas(personas: IPersona[]){
+    this.listaPersonas = personas;
+  }
+
+  ngOnChanges(): void {
+      this.updateHistorial();
+  }
+
+  updateHistorial():void{
+    this.subGet = this.appService.getPersonas().subscribe({
+      next: listaPersonas => {
+        this.listaPersonas = listaPersonas;
+      },
+      error: err => this.errorMessage = err
+    });
+
   }
 
   ngOnInit(): void {

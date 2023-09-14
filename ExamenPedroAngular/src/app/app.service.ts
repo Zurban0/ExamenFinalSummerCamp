@@ -3,26 +3,16 @@ import { Injectable } from "@angular/core";
 import { Observable, catchError, tap, throwError } from "rxjs";
 
 import { IPersona } from "./persona";
+import { IPersonaForm } from "./persona-form";
 
 @Injectable({
   providedIn: 'root'
 })
 
 export class AppService {
-  private conversorUrl = 'https://3enrayacodecurrencyconverter.azurewebsites.net/api/Conversor';
-  private token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibW9jaCIsImp0aSI6IjhiMTVkODlhLWU1YjUtNDM4Yi1iMTNhLWEzODU5NmNhYWZlOCIsImV4cCI6MTY5NTg5MjQ5MiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo0MjAwIn0.xHkxQ1cqrOW8iK156IJSKRTuTQBs-vGbJYzoeAIxDyI"
-
   constructor(private http: HttpClient) { }
 
-  // postConversion(body: IPeticionConversion): Observable<IResultadoConversion> {
-  //   let headers = new HttpHeaders().set('Authorization', `Bearer ${this.token}`);
-  //   return this.http.post<IResultadoConversion>(this.conversorUrl, body, { headers }).pipe(
-  //       tap(data => console.log('All', JSON.stringify(data))),
-  //       catchError(this.handleError)
-  //   );
-  // }
-
-  postPersona(body: IPersona): Observable<void> {
+  postPersona(body: IPersonaForm): Observable<void> {
     return this.http.post<void>("https://localhost:7036/api/personas/registrarUsuario", body).pipe(
       tap(data => console.log('All', JSON.stringify(data))),
       catchError(this.handleError)
